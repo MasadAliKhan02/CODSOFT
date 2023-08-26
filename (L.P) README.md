@@ -1,0 +1,186 @@
+# CODSOFT
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href=
+"https://unpkg.com/purecss@2.0.4/build/pure-min.css">
+<title>LANDING PAGE</title>
+	<style>
+		.box {
+			background-color: lightgoldenrodyellow;
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.box p {
+			font-size: 25px;
+            color: darkgreen;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+        .box q{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+		.feature {
+			background-color: white;
+			padding: 40px;
+			text-align: center;
+		}
+
+		.feature h2 {
+			font-size: 30px;
+			margin-bottom: 25px;
+            color: green;
+            text-align: left;
+            text-decoration: underline;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+
+		.feature p {
+			font-size: 18px;
+			margin-bottom: 40px;
+            font-weight: bold;
+            text-align: left;
+		}
+
+		.feature img {
+			max-width: 50%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+        .container{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: blueviolet;
+            
+        }
+       
+	</style>
+</head>
+
+<body>
+	<h1 style="color:green; font-family: Georgia, 'Times New Roman', Times, serif;" ><center>
+		<marquee>PROGRAMMING WORLD</marquee>
+	</center></h1>
+	<h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"><center>
+		LANDING PAGE USING HTML AND CSS
+	</center></h3>
+	<header class="pure-menu pure-menu-horizontal">
+    <hr>
+    <div class="container">
+		<ul class="pure-menu-list">
+			<li class="pure-menu-item">
+				<a href="#"
+				class="pure-menu-link">
+					PYTHON
+				</a>
+			</li>
+			<li class="pure-menu-item">
+				<a href="#"
+				class="pure-menu-link">
+					C
+				</a>
+			</li>
+			<li class="pure-menu-item">
+				<a href="#"
+				class="pure-menu-link">
+					RUBY
+				</a>
+			</li>   
+            <li class="pure-menu-item">
+				<a href="#"
+				class="pure-menu-link">
+					PHP
+				</a>
+			</li> 
+        </ul>    
+    </div>
+    <hr>
+	</header>
+	<div class="box">
+		<div class="pure-g">
+			<div class="pure-u-1 pure-u-md-1-2">
+				<h1</h1>
+				<p>
+                    <q><B>WHAT IS PROGRAMMING</B></q>
+					A program is a set of instructions given to a computer to perform a specific operation. or computer is a computational device that is used to process the data under the control of a computer program. While executing the program, raw data is processed into the desired output format. These computer programs are written in a programming language which are high-level languages. High level languages are nearly human languages that are more complex than the computer understandable language which are called machine language, or low level language.
+				</p>
+				<a href="#" class="pure-button pure-button-primary">
+					Learn More
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-1 pure-u-md-1-3">
+			<div class="feature">
+				<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"
+					alt="Feature 1 image">
+				<h2>PYTHON</h2>
+                <hr>
+				    <p>python is a high-level, general-purpose programming language.</p>
+                    <p>Its design philosophy emphasizes code readability with the use of significant indentation[34].</p>
+                    <p>Python is dynamically typed and garbage-collected.</p>
+                    <p>It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.</p>
+                    <p>It is often described as a "batteries included" language due to its comprehensive standard library.[35][36]</p>
+                    <p>Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.[37]</p>
+                    <p>Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.[38]</p>
+                    <p>Python consistently ranks as one of the most popular programming languages.</p>
+                <hr>
+			</div>
+		</div>
+		<div class="pure-u-1 pure-u-md-1-3">
+			<div class="feature">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/95px-C_Programming_Language.svg.png"
+					alt="Feature 2 image">
+				<h2>C</h2>
+                <hr>
+					<p>C is an imperative, procedural language in the ALGOL tradition. </p>
+                    <p>It has a static type system. In C, all executable code is contained within subroutines (also called "functions", though not in the sense of functional programming). </p>
+                    <p>Function parameters are passed by value, although arrays are passed as pointers, i.e. the address of the first item in the array. Pass-by-reference is simulated in C by explicitly passing pointers to the thing being referenced.</p>
+                    <p>C program source text is free-form code. </p>
+                    <p>Semicola terminate statements, while curly braces are used to group statements into blocks.</p>
+                <hr>
+			</div>
+		</div>
+		<div class="pure-u-1 pure-u-md-1-3">
+			<div class="feature">
+				<img src=
+                https://www.easyproject.com/EasyProject/media/images/articles/p13/f1096/ruby.jpg height="200x" width="200px"
+					alt="Feature 3 image">
+				<h2>RUBY</h2>
+                <hr>
+					<p>Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. </p>
+                    <p>It was designed with an emphasis on programming productivity and simplicity. </p>
+                    <p>In Ruby, everything is an object, including primitive data types. </p>
+                    <p>It was developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.</p>
+                    <p>Ruby is dynamically typed and uses garbage collection and just-in-time compilation. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, BASIC, Java, and Lisp[10][3] .</p>
+                <hr> 
+			</div>
+		</div>
+        <div class="pure-u-1 pure-u-md-1-3">
+			<div class="feature">
+				<img src=
+                https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDmHpDtSQnKMfyQCk9KINf2LoFH_6UsCshWz222Xr2_i4H0ntd0hGKvV7b5rbGsnJzeUw&usqp=CAU
+					alt="Feature 3 image">
+				<h2>PHP</h2>
+                <hr>
+				<p>PHP is a server-side scripting language, which is used to design the dynamic web applications with MySQL database.</p>
+                <p>It handles dynamic content, database as well as session tracking for the website.</p>
+                <p>You can create sessions in PHP.</p>
+                <p>It can access cookies variable and also set cookies.</p>
+                <p>It helps to encrypt the data and apply validation.</p>
+                <p>PHP supports several protocols such as HTTP, POP3, SNMP, LDAP, IMAP, and many more.</p>
+                <p>Using PHP language, you can control the user to access some pages of your website.</p>
+                <p>As PHP is easy to install and set up, this is the main reason why PHP is the best language to learn.</p>
+                <p>PHP can handle the forms, such as - collect the data from users using forms, save it into the database, and return useful information to the user. For example - Registration form. </p>
+                <hr> 
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
